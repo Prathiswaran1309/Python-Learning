@@ -1,0 +1,6 @@
+print ("BMI Calculator")
+username = (input("Tell your name:"))
+weight = int(input("Your weight please:"))
+height = int(input("Your height please:"))
+BMI = weight/(height**2)
+print (f"Hello {username.capitalize()}, Your BMI value is {BMI}")
