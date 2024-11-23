@@ -1,0 +1,6 @@
+print ("Find the largest number from 3 numbers")
+num1 = input("Please enter your 1st number: ")
+num2 = input("Please enter your 2nd number: ")
+num3 = input("Please enter your 3rd number: ")
+lar_num = max(num1,num2,num3)
+print (f"The largest number from {num1}, {num2}, {num3} is {lar_num}")
